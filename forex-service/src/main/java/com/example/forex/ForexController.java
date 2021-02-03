@@ -22,9 +22,4 @@ public class ForexController {
 		  "local.server.port"))); 
 		  return exchangeValue;
 	}
-	
-	@GetMapping("/currency-exchange1/from/{from}/to/{to}")
-	public String hello(@PathVariable String from, @PathVariable String to){
-		return "Hello World";
-	}
 }
