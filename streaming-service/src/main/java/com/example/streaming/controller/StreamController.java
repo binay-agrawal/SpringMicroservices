@@ -9,7 +9,7 @@ import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBo
 @RestController
 public class StreamController {
 
-	@GetMapping(value = "/data")
+	@GetMapping(value = "/streamdata")
 	public ResponseEntity<StreamingResponseBody> streamData() {
 		StreamingResponseBody responseBody = response -> {
 			for (int i = 1; i <= 1000; i++) {
