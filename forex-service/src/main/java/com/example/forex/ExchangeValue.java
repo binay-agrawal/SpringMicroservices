@@ -1,15 +1,10 @@
 package com.example.forex;
 
-import java.math.BigDecimal;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.xml.bind.annotation.XmlRootElement;
-
+import jakarta.persistence.*;
 import lombok.Data;
 
-@XmlRootElement
+import java.math.BigDecimal;
+
 @Entity
 @Data
 public class ExchangeValue {
